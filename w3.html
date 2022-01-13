@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Programing with MIA</title>
+        <link rel="Stylesheet" href="w3.css">
+    </head>
+    <body>
+        <p>
+            <strong>Hello there!</strong><br> Thank you for joining me today.<br>
+            My name is Mia and I am just a beginner in programming.<br>
+             I am glad to share what i know with you.
+            .<br>
+        </p>
+        <p>
+            <h1>Starting with HTML</h1>
+            <br>
+            <em>HTML</em> is an abbreviation for HyperText Markup Language.
+            <br>
+            It is the buliding block of all websites you've ever visited!
+            <br>
+            However, HTML is <strong>not</strong> the only language involved in designing web pages.
+            <br>
+            I <i><strong>wish</strong></i> to help you in HTML.
+            <br>
+            Please notify me if you need my help.
+            <br>
+            <a href="mailto:andersonmia@gmail.com">Email me here</a>
+            <br>
+            But you can use w3schools to learn if that makes you more comfortable.
+            <br>
+            <a href="https://www.w3schools.com/html/html_links.asp" target="_blank">Visit w3 schools!</a>
+            <quote><i>It all comes with time!</i></quote>
+        </p>
+        <br>
+        <div class="Mia">
+            I am actually planning to start online tutorials.
+            <br>
+            I guess helping and teaching others helps you to understand better.
+            <br>
+            I hope ko byose bizakunda tu.
+        </div>
+        <h1 id="footer">See you soon!</h1>
+        <br>
+        <br>
+        <h1 id="myFooter">The end</h1>
+        <br>
+        <!--HTML JAVASCRIPT STARTS HERE-->
+        <h1>Welcome to Javascript</h1>
+        <br>
+        <!--USING JAVASCRIPT TO CHANGE HTML CONTENT-->
+        <p id="js">We are going to use <i><strong>Javascript </strong></i>to change the HTML content.
+            <br>
+            Just click the button below and see the change.
+            <br>
+            If you want to see the codes,<br>
+            press ctrl+u  and check lines <srong><i>49 to 59</i></srong> 
+            <br>
+        </p>
+        <button type="button"
+         onclick='document.getElementById("js").innerHTML= "Here we are!"'>Click here
+        </button>
+    <br>
+    <h3 id="selfTrial">Let's retry</h3>
+    <br>
+    <button type="button"
+    onclick='document.getElementById("selfTrial").innerHTML=
+    "See the change now?"'>
+    Click me too
+    <br>
+    </button>
+    <br>
+    <br>
+    <button onclick="document.getElementById('bulb').src='light.jpg'">Turn on the light
+    </button>
+    <img id="bulb" src="bulb.jpg">
+    <button onclick="document.getElementById('bulb').src='bulb.jpg'">Turn off the light
+    </button>
+    <!--WRITING JAVASCRIPT FUNCTIONS IN HTML DOCUMENT-->
+    <script src="w3.js"></script>
+    <br>
+    <p id="demo">I have created an external javascript file.
+        <br>
+        It contains a function which will change the html content.
+        <br>
+        The layout seems similar but the approach is different.
+        <br>
+        <a href="w3.js">Navigate to prove</a>
+    </p>
+    <button type="button" onclick="button()">Button function, click</button>
+    <br>
+    <p>Now, we are going to print this page using <b>Javascript</b></p>
+    <br>
+   <!-- <p>Now, we are going to print the sum of <strong><i>9,10,23</i></strong></p>-->
+    <br>
+ <!--<button type="button" onclick="sum(9,10,23)">Click to see the sum</button>-->
+    <button type="button" onclick="window.print()">Print this page</button>
+    <br>
+    </body>
+</html>

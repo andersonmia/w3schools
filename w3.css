@@ -1,0 +1,49 @@
+body{
+    background-color: lavender;
+    font-size: large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: darkorange;
+    background-image: url('princess.jpg');
+    background-repeat:repeat-y;
+    background-position: right top;
+    background-attachment: scroll;
+    
+}
+}
+
+a{
+    color:blue;   
+}
+#footer{
+    color: darkviolet;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+p{
+    color: crimson;
+}
+
+h1{
+    color: darkblue;
+}
+
+.Mia{
+    font-weight: lighter;
+    color: deepskyblue;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#myFooter{
+    border-style: ridge;
+    border: 2px rgb(17, 15, 20);
+    color: yellow;
+}
+
+#bulb{
+    width: 100px;
+}
